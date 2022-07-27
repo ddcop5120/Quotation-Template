@@ -5,7 +5,6 @@
 
 ## 技術規範
 - [Tailwind.css](https://tailwindcss.com/)
-- [Vue.js v2](https://v2.vuejs.org/)
 - [CSS Paged Media](https://www.w3.org/TR/css-page-3/)
 
 ## License
