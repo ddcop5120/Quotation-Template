@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@layer base {
+    .app {
+        counter-reset: normalPage 0;
+    }
+    .footer {
+        font-size: 15pt;
+        position: running(footer);
+    }
+    @font-face {
+        font-family: "SourceHanSansCN-Medium";
+        src: url("../../fonts/SourceHanSansCN-Medium.otf");
+    }
+    @page {
+        size: A4 portrait;
+        font-family: "SourceHanSansCN-Medium";
+        font-size: 11pt;
+        --belstar-margin-top: 0mm;
+        --belstar-margin-bottom: 0mm;
+        --belstar-margin-left: 15mm;
+        --belstar-margin-right: 15mm;
+    }
+}
