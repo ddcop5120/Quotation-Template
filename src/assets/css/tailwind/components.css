@@ -1,0 +1,37 @@
+@import "tailwindcss/components";
+@layer components {
+    .image-contain {
+        @apply w-full object-contain m-auto block
+    }
+    .position-right-down {
+        right: var(--belstar-margin-right);
+        bottom: calc(var(--belstar-margin-bottom) * 0.25);
+        @apply absolute
+    }
+    .text-title {
+        font-size: 16pt;
+        @apply font-black mb-4;
+    }
+    .title {
+        font-size: 14pt;
+        @apply font-black;
+    }
+    /* 在print情況下所設定的css */
+    @media print {
+        .break-inside {
+            page-break-inside: avoid;
+        }
+        .break-before {
+            page-break-before: always;
+        }
+        .break-after {
+            page-break-after: always;
+        }
+        .count-reset {
+            counter-reset: page 0;
+        }
+        .count-increment {
+            counter-increment: page;
+        }
+    }
+}

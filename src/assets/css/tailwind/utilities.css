@@ -40,32 +40,8 @@
     .text-indent {
         text-indent: 1rem;
     }
-    .-text-indent_0_8 {
-        text-indent: -0.8rem;
-    }
-    .-text-indent_1_1 {
-        text-indent: -1.1rem;
-    }
-    .-text-indent_1_2 {
-        text-indent: -1.2rem;
-    }
-    .-text-indent_1_3 {
-        text-indent: -1.3rem;
-    }
-    .-text-indent_1_5 {
-        text-indent: -1.5rem;
-    }
-    .-text-indent_1_7 {
-        text-indent: -1.7rem;
-    }
-    .-text-indent_1_8 {
-        text-indent: -1.8rem;
-    }
     .text-justify-last {
         text-align: justify;
         text-align-last: left;
-    }
-    .w-100 {
-        width: 180mm;
     }
 }
